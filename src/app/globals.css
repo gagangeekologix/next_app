@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.cursor-light {
+  position: fixed;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(26, 25, 25, 0.616) 0%, rgba(0, 0, 0, 0) 80%);
+  pointer-events: none;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+  z-index: 1000;
+}
